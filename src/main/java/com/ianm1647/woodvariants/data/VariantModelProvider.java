@@ -7,8 +7,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.client.*;
 
-public class VariantsModelProvider extends FabricModelProvider {
-    public VariantsModelProvider(FabricDataOutput output) {
+public class VariantModelProvider extends FabricModelProvider {
+    public VariantModelProvider(FabricDataOutput output) {
         super(output);
     }
 

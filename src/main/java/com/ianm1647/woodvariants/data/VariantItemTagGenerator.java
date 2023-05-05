@@ -1,22 +1,18 @@
 package com.ianm1647.woodvariants.data;
 
-import com.google.common.collect.ImmutableList;
-import com.ianm1647.woodvariants.WoodVariants;
 import com.ianm1647.woodvariants.block.BlockList;
-import com.ianm1647.woodvariants.block.BlockTagKeys;
 import com.ianm1647.woodvariants.item.ItemTagKeys;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 
 import java.util.concurrent.CompletableFuture;
 
-public class VariantsItemTagGenerator extends FabricTagProvider.ItemTagProvider {
+public class VariantItemTagGenerator extends FabricTagProvider.ItemTagProvider {
 
-    public VariantsItemTagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+    public VariantItemTagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
 

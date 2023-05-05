@@ -21,6 +21,9 @@
     "main": [
       "com.ianm1647.woodvariants.WoodVariants"
     ],
+    "client": [
+      "com.ianm1647.woodvariants.WoodVariantsClient"
+    ],
     "fabric-datagen": [
       "com.ianm1647.woodvariants.WoodVariantsDataGeneration"
     ]

@@ -9,11 +9,11 @@ public class WoodVariantsDataGeneration implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-        pack.addProvider(VariantsLootTableGenerator::new);
-        pack.addProvider(VariantsRecipeGenerator::new);
-        pack.addProvider(VariantsModelProvider::new);
-        pack.addProvider(VariantsBlockTagGenerator::new);
-        pack.addProvider(VariantsItemTagGenerator::new);
+        pack.addProvider(VariantLootTableGenerator::new);
+        pack.addProvider(VariantRecipeGenerator::new);
+        pack.addProvider(VariantModelProvider::new);
+        pack.addProvider(VariantBlockTagGenerator::new);
+        pack.addProvider(VariantItemTagGenerator::new);
     }
 
 }

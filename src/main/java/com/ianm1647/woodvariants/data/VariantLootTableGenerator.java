@@ -4,8 +4,8 @@ import com.ianm1647.woodvariants.block.BlockList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 
-public class VariantsLootTableGenerator extends FabricBlockLootTableProvider {
-    public VariantsLootTableGenerator(FabricDataOutput dataOutput) {
+public class VariantLootTableGenerator extends FabricBlockLootTableProvider {
+    public VariantLootTableGenerator(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
 

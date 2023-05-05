@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 
 import java.util.function.Consumer;
 
-public class VariantsRecipeGenerator extends FabricRecipeProvider {
-    public VariantsRecipeGenerator(FabricDataOutput output) {
+public class VariantRecipeGenerator extends FabricRecipeProvider {
+    public VariantRecipeGenerator(FabricDataOutput output) {
         super(output);
     }
 

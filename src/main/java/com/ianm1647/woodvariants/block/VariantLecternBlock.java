@@ -1,9 +1,7 @@
 package com.ianm1647.woodvariants.block;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.LecternBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.LecternBlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -24,7 +22,7 @@ public class VariantLecternBlock extends LecternBlock {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         ItemStack stack = player.getStackInHand(hand);
         if (stack.isIn(ItemTags.LECTERN_BOOKS)) {
-            return LecternBlock.putBookIfAbsent(player, world, pos, state, stack) ? ActionResult.success(world.isClient) : ActionResult.PASS;
+            return putBookIfAbsent(player, world, pos, state, stack) ? ActionResult.success(world.isClient) : ActionResult.PASS;
         }
         if (state.get(HAS_BOOK).booleanValue()) {
             if (!world.isClient) {
