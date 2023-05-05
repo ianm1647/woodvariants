@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:crafting_table",
+    "woodvariants:spruce_crafting_table",
+    "woodvariants:birch_crafting_table",
+    "woodvariants:jungle_crafting_table",
+    "woodvariants:acacia_crafting_table",
+    "woodvariants:dark_oak_crafting_table",
+    "woodvariants:crimson_crafting_table",
+    "woodvariants:warped_crafting_table",
+    "woodvariants:mangrove_crafting_table",
+    "woodvariants:bamboo_crafting_table",
+    "woodvariants:cherry_crafting_table"
+  ]
+}

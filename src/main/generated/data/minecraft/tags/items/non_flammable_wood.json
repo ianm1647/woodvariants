@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "woodvariants:crimson_barrel",
+    "woodvariants:warped_barrel",
+    "woodvariants:crimson_beehive",
+    "woodvariants:warped_beehive",
+    "woodvariants:crimson_bookshelf",
+    "woodvariants:warped_bookshelf",
+    "woodvariants:crimson_composter",
+    "woodvariants:warped_composter",
+    "woodvariants:crimson_crafting_table",
+    "woodvariants:warped_crafting_table",
+    "woodvariants:crimson_ladder",
+    "woodvariants:warped_ladder",
+    "woodvariants:crimson_lectern",
+    "woodvariants:warped_lectern"
+  ]
+}

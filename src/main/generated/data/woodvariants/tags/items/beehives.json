@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beehive",
+    "woodvariants:spruce_beehive",
+    "woodvariants:birch_beehive",
+    "woodvariants:jungle_beehive",
+    "woodvariants:acacia_beehive",
+    "woodvariants:dark_oak_beehive",
+    "woodvariants:crimson_beehive",
+    "woodvariants:warped_beehive",
+    "woodvariants:mangrove_beehive",
+    "woodvariants:bamboo_beehive",
+    "woodvariants:cherry_beehive"
+  ]
+}

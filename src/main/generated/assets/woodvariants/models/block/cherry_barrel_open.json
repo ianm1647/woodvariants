@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "woodvariants:block/cherry_barrel_bottom",
+    "side": "woodvariants:block/cherry_barrel_side",
+    "top": "woodvariants:block/cherry_barrel_top_open"
+  }
+}

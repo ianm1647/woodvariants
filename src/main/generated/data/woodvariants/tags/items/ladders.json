@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ladder",
+    "woodvariants:spruce_ladder",
+    "woodvariants:birch_ladder",
+    "woodvariants:jungle_ladder",
+    "woodvariants:acacia_ladder",
+    "woodvariants:dark_oak_ladder",
+    "woodvariants:crimson_ladder",
+    "woodvariants:warped_ladder",
+    "woodvariants:mangrove_ladder",
+    "woodvariants:bamboo_ladder",
+    "woodvariants:cherry_ladder"
+  ]
+}

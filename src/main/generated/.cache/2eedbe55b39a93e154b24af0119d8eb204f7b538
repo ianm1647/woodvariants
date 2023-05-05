@@ -1,0 +1,10 @@
+// 1.19.4	2023-05-04T19:59:15.0100424	Wood Variants/Tags for minecraft:block
+a676d1f1f5ff65f6ab18b6bad0c4f560841a6d3f data\woodvariants\tags\blocks\composters.json
+35fd7a708b1659817088b97c9c68ae6405e89e78 data\woodvariants\tags\blocks\lecterns.json
+a1c465775e88e504def93802f2abd89850539a5f data\woodvariants\tags\blocks\crafting_tables.json
+790d6cf6661aecc192dd84ab00812c5bf3077c95 data\woodvariants\tags\blocks\beehives.json
+38067f62eaec10c22fd6da851c77f9df86381a27 data\minecraft\tags\blocks\climbable.json
+bb48f3094321038bbf7ebbb214dd17649d717062 data\woodvariants\tags\blocks\bookshelves.json
+5fd942bd35ab9c1b568a0d290b3a1b39cc2368c6 data\minecraft\tags\blocks\mineable\axe.json
+ce8d146455f445dffb86788d33160d2f5a3723f2 data\woodvariants\tags\blocks\ladders.json
+c5210ebe9f7ff664498941e66a505223688c58f9 data\woodvariants\tags\blocks\barrels.json

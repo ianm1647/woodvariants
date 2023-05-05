@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:cherry_planks"
+    },
+    "P": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "P P",
+    "PLP",
+    "P P"
+  ],
+  "result": {
+    "item": "woodvariants:cherry_ladder"
+  },
+  "show_notification": true
+}

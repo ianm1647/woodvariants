@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "woodvariants:block/bamboo_lectern",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "woodvariants:block/bamboo_lectern"
+    },
+    "facing=south": {
+      "model": "woodvariants:block/bamboo_lectern",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woodvariants:block/bamboo_lectern",
+      "y": 270
+    }
+  }
+}

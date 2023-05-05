@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "P": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "P P",
+    "PLP",
+    "P P"
+  ],
+  "result": {
+    "item": "woodvariants:dark_oak_ladder"
+  },
+  "show_notification": true
+}

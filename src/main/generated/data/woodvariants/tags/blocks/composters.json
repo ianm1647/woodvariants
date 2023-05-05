@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:composter",
+    "woodvariants:oak_composter",
+    "woodvariants:spruce_composter",
+    "woodvariants:birch_composter",
+    "woodvariants:jungle_composter",
+    "woodvariants:acacia_composter",
+    "woodvariants:dark_oak_composter",
+    "woodvariants:crimson_composter",
+    "woodvariants:warped_composter",
+    "woodvariants:mangrove_composter",
+    "woodvariants:bamboo_composter",
+    "woodvariants:cherry_composter"
+  ]
+}

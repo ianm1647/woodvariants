@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lectern",
+    "woodvariants:spruce_lectern",
+    "woodvariants:birch_lectern",
+    "woodvariants:jungle_lectern",
+    "woodvariants:acacia_lectern",
+    "woodvariants:dark_oak_lectern",
+    "woodvariants:crimson_lectern",
+    "woodvariants:warped_lectern",
+    "woodvariants:mangrove_lectern",
+    "woodvariants:bamboo_lectern",
+    "woodvariants:cherry_lectern"
+  ]
+}

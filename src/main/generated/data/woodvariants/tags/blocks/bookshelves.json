@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bookshelf",
+    "woodvariants:spruce_bookshelf",
+    "woodvariants:birch_bookshelf",
+    "woodvariants:jungle_bookshelf",
+    "woodvariants:acacia_bookshelf",
+    "woodvariants:dark_oak_bookshelf",
+    "woodvariants:crimson_bookshelf",
+    "woodvariants:warped_bookshelf",
+    "woodvariants:mangrove_bookshelf",
+    "woodvariants:bamboo_bookshelf",
+    "woodvariants:cherry_bookshelf"
+  ]
+}

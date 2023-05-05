@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#woodvariants:barrels",
+    "#woodvariants:beehives",
+    "#woodvariants:bookshelves",
+    "#woodvariants:composters",
+    "#woodvariants:crafting_tables",
+    "#woodvariants:ladders",
+    "#woodvariants:lecterns"
+  ]
+}

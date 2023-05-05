@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "woodvariants:block/dark_oak_beehive_end",
+    "front": "woodvariants:block/dark_oak_beehive_front_honey",
+    "particle": "woodvariants:block/dark_oak_beehive_side",
+    "side": "woodvariants:block/dark_oak_beehive_side",
+    "top": "woodvariants:block/dark_oak_beehive_end"
+  }
+}

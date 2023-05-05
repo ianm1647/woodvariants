@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "woodvariants",
+  "version": "${version}",
+
+  "name": "Wood Variants",
+  "description": "Adds variants for all vanilla wood type for various different blocks and items",
+  "authors": [
+    "ianm1647"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/woodvariants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ianm1647.woodvariants.WoodVariants"
+    ],
+    "fabric-datagen": [
+      "com.ianm1647.woodvariants.WoodVariantsDataGeneration"
+    ]
+  },
+  "mixins": [
+    "woodvariants.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

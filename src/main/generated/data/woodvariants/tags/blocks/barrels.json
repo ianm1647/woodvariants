@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:barrel",
+    "woodvariants:oak_barrel",
+    "woodvariants:birch_barrel",
+    "woodvariants:jungle_barrel",
+    "woodvariants:acacia_barrel",
+    "woodvariants:dark_oak_barrel",
+    "woodvariants:crimson_barrel",
+    "woodvariants:warped_barrel",
+    "woodvariants:mangrove_barrel",
+    "woodvariants:bamboo_barrel",
+    "woodvariants:cherry_barrel"
+  ]
+}
