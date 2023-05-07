@@ -1,7 +1,7 @@
 package com.ianm1647.woodvariants;
 
-import com.ianm1647.woodvariants.block.BlockList;
-import com.ianm1647.woodvariants.registry.BlockEntityRegistry;
+import com.ianm1647.woodvariants.registry.BlockEntityTypeRegistry;
+import com.ianm1647.woodvariants.util.BlockList;
 import com.ianm1647.woodvariants.registry.BlockRegistry;
 import com.ianm1647.woodvariants.registry.TagKeyRegistry;
 import com.ianm1647.woodvariants.registry.UtilRegistry;
@@ -23,7 +23,7 @@ public class WoodVariants implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		BlockRegistry.registerBlocks();
-		BlockEntityRegistry.registerBlockEntities();
+		BlockEntityTypeRegistry.registerBlockEntities();
 
 		UtilRegistry.registerUtil();
 		TagKeyRegistry.registerTagKeys();

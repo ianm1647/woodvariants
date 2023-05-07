@@ -1,7 +1,7 @@
 package com.ianm1647.woodvariants.data;
 
-import com.ianm1647.woodvariants.block.BlockList;
-import com.ianm1647.woodvariants.item.ItemTagKeys;
+import com.ianm1647.woodvariants.util.BlockList;
+import com.ianm1647.woodvariants.util.ItemTagKeys;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
@@ -35,6 +35,11 @@ public class VariantItemTagGenerator extends FabricTagProvider.ItemTagProvider {
                 BlockList.ACACIA_BOOKSHELF.asItem(), BlockList.DARK_OAK_BOOKSHELF.asItem(), BlockList.CRIMSON_BOOKSHELF.asItem(),
                 BlockList.WARPED_BOOKSHELF.asItem(), BlockList.MANGROVE_BOOKSHELF.asItem(), BlockList.BAMBOO_BOOKSHELF.asItem(),
                 BlockList.CHERRY_BOOKSHELF.asItem());
+        getOrCreateTagBuilder(ItemTagKeys.CHESTS).add(Blocks.CHEST.asItem(),
+                BlockList.OAK_CHEST.asItem(), BlockList.SPRUCE_CHEST.asItem(), BlockList.BIRCH_CHEST.asItem(),
+                BlockList.JUNGLE_CHEST.asItem(), BlockList.ACACIA_CHEST.asItem(), BlockList.DARK_OAK_CHEST.asItem(),
+                BlockList.CRIMSON_CHEST.asItem(), BlockList.WARPED_CHEST.asItem(), BlockList.MANGROVE_CHEST.asItem(),
+                BlockList.BAMBOO_CHEST.asItem(), BlockList.CHERRY_CHEST.asItem());
         getOrCreateTagBuilder(ItemTagKeys.COMPOSTERS).add(Blocks.COMPOSTER.asItem(),
                 BlockList.OAK_COMPOSTER.asItem(), BlockList.SPRUCE_COMPOSTER.asItem(), BlockList.BIRCH_COMPOSTER.asItem(),
                 BlockList.JUNGLE_COMPOSTER.asItem(), BlockList.ACACIA_COMPOSTER.asItem(), BlockList.DARK_OAK_COMPOSTER.asItem(),
@@ -62,6 +67,7 @@ public class VariantItemTagGenerator extends FabricTagProvider.ItemTagProvider {
                 BlockList.CRIMSON_BARREL.asItem(), BlockList.WARPED_BARREL.asItem(),
                 BlockList.CRIMSON_BEEHIVE.asItem(), BlockList.WARPED_BEEHIVE.asItem(),
                 BlockList.CRIMSON_BOOKSHELF.asItem(), BlockList.WARPED_BOOKSHELF.asItem(),
+                BlockList.CRIMSON_CHEST.asItem(), BlockList.WARPED_CHEST.asItem(),
                 BlockList.CRIMSON_COMPOSTER.asItem(), BlockList.WARPED_COMPOSTER.asItem(),
                 BlockList.CRIMSON_CRAFTING_TABLE.asItem(), BlockList.WARPED_CRAFTING_TABLE.asItem(),
                 BlockList.CRIMSON_LADDER.asItem(), BlockList.WARPED_LADDER.asItem(),

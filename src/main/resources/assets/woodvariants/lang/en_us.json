@@ -14,6 +14,19 @@
   "block.woodvariants.bamboo_barrel": "Bamboo Barrel",
   "block.woodvariants.cherry_barrel": "Cherry Barrel",
 
+  "block.minecraft.beehive": "Oak Beehive",
+
+  "block.woodvariants.spruce_beehive": "Spruce Beehive",
+  "block.woodvariants.birch_beehive": "Birch Beehive",
+  "block.woodvariants.jungle_beehive": "Jungle Beehive",
+  "block.woodvariants.acacia_beehive": "Acacia Beehive",
+  "block.woodvariants.dark_oak_beehive": "Dark Oak Beehive",
+  "block.woodvariants.crimson_beehive": "Crimson Beehive",
+  "block.woodvariants.warped_beehive": "Warped Beehive",
+  "block.woodvariants.mangrove_beehive": "Mangrove Beehive",
+  "block.woodvariants.bamboo_beehive": "Bamboo Beehive",
+  "block.woodvariants.cherry_beehive": "Cherry Beehive",
+
   "block.minecraft.bookshelf": "Oak Bookshelf",
 
   "block.woodvariants.spruce_bookshelf": "Spruce Bookshelf",
@@ -26,6 +39,18 @@
   "block.woodvariants.mangrove_bookshelf": "Mangrove Bookshelf",
   "block.woodvariants.bamboo_bookshelf": "Bamboo Bookshelf",
   "block.woodvariants.cherry_bookshelf": "Cherry Bookshelf",
+
+  "block.woodvariants.oak_chest": "Oak Chest",
+  "block.woodvariants.spruce_chest": "Spruce Chest",
+  "block.woodvariants.birch_chest": "Birch Chest",
+  "block.woodvariants.jungle_chest": "Jungle Chest",
+  "block.woodvariants.acacia_chest": "Acacia Chest",
+  "block.woodvariants.dark_oak_chest": "Dark Oak Chest",
+  "block.woodvariants.crimson_chest": "Crimson Chest",
+  "block.woodvariants.warped_chest": "Warped Chest",
+  "block.woodvariants.mangrove_chest": "Mangrove Chest",
+  "block.woodvariants.bamboo_chest": "Bamboo Chest",
+  "block.woodvariants.cherry_chest": "Cherry Chest",
 
   "block.woodvariants.oak_composter": "Oak Composter",
   "block.woodvariants.spruce_composter": "Spruce Composter",

@@ -1,10 +1,10 @@
-// 1.19.4	2023-05-04T19:59:15.0100424	Wood Variants/Block Loot Tables
+// 1.19.4	2023-05-06T11:24:19.577942	Wood Variants/Block Loot Tables
 4a782f7738fdb47580799b26a427d7de45246932 data\woodvariants\loot_tables\blocks\crimson_composter.json
 d3f9e3734ec3bb4fd0e39d5094e112b1cb1a6e3c data\woodvariants\loot_tables\blocks\jungle_ladder.json
 c04b3e80b5cfd871afc9dc088fe021f19d4a57c2 data\woodvariants\loot_tables\blocks\warped_beehive.json
 3254f21ed18f2499d56e8c7f37a1f9fb24666b0b data\woodvariants\loot_tables\blocks\spruce_composter.json
-ebd9f1edd09c466934e00b70dba96c314a54dde3 data\woodvariants\loot_tables\blocks\jungle_composter.json
 bfd5fcc32efa8e9ba719d64fc361a567049ef1d5 data\woodvariants\loot_tables\blocks\bamboo_beehive.json
+ebd9f1edd09c466934e00b70dba96c314a54dde3 data\woodvariants\loot_tables\blocks\jungle_composter.json
 6b46bd45040a1e0456ab811c291a3d3e804bbe0f data\woodvariants\loot_tables\blocks\crimson_barrel.json
 d4a3d23886eb308859ea13ea25d69e22d5089cdb data\woodvariants\loot_tables\blocks\mangrove_lectern.json
 55eaad5de4a9d72ef3b04ae92af820e16b59ee1b data\woodvariants\loot_tables\blocks\crimson_ladder.json
@@ -33,8 +33,8 @@ da714d32b06ed44720c0f22fe7d56bbba25b6cd4 data\woodvariants\loot_tables\blocks\ba
 9aa7b10f394acff5237452a9e87d9951e14f2e1f data\woodvariants\loot_tables\blocks\bamboo_crafting_table.json
 d1c4a6f074c8e3e04765fa5638ee60a987aa00a3 data\woodvariants\loot_tables\blocks\mangrove_ladder.json
 78db677b8cca18145d5700a8cae0ee114aa8414b data\woodvariants\loot_tables\blocks\crimson_beehive.json
-8ae72631e92b997bb97833e91d6e02aa955a5ef4 data\woodvariants\loot_tables\blocks\mangrove_beehive.json
 9b2b7ce9fbca1db675628ddabde8cf0f3e9c7a55 data\woodvariants\loot_tables\blocks\warped_crafting_table.json
+8ae72631e92b997bb97833e91d6e02aa955a5ef4 data\woodvariants\loot_tables\blocks\mangrove_beehive.json
 e0722329fb4409c62c04cbff4f84138bb4228980 data\woodvariants\loot_tables\blocks\oak_barrel.json
 d6d5794c6ce159b856a8107a4c3057cb2bbfd321 data\woodvariants\loot_tables\blocks\cherry_ladder.json
 6757d91195cfdc6bfb9d6d1b1c054e254683b8e4 data\woodvariants\loot_tables\blocks\birch_crafting_table.json

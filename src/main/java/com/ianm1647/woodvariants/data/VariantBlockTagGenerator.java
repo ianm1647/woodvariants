@@ -1,7 +1,7 @@
 package com.ianm1647.woodvariants.data;
 
-import com.ianm1647.woodvariants.block.BlockList;
-import com.ianm1647.woodvariants.block.BlockTagKeys;
+import com.ianm1647.woodvariants.util.BlockList;
+import com.ianm1647.woodvariants.util.BlockTagKeys;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
@@ -29,6 +29,9 @@ public class VariantBlockTagGenerator extends FabricTagProvider.BlockTagProvider
         getOrCreateTagBuilder(BlockTagKeys.BOOKSHELVES).add(Blocks.BOOKSHELF, BlockList.SPRUCE_BOOKSHELF, BlockList.BIRCH_BOOKSHELF, BlockList.JUNGLE_BOOKSHELF,
                 BlockList.ACACIA_BOOKSHELF, BlockList.DARK_OAK_BOOKSHELF, BlockList.CRIMSON_BOOKSHELF, BlockList.WARPED_BOOKSHELF,
                 BlockList.MANGROVE_BOOKSHELF, BlockList.BAMBOO_BOOKSHELF, BlockList.CHERRY_BOOKSHELF);
+        getOrCreateTagBuilder(BlockTagKeys.CHESTS).add(Blocks.CHEST, BlockList.OAK_CHEST, BlockList.SPRUCE_CHEST, BlockList.BIRCH_CHEST, BlockList.JUNGLE_CHEST,
+                BlockList.ACACIA_CHEST, BlockList.DARK_OAK_CHEST, BlockList.CRIMSON_CHEST, BlockList.WARPED_CHEST,
+                BlockList.MANGROVE_CHEST, BlockList.BAMBOO_CHEST, BlockList.CHERRY_CHEST);
         getOrCreateTagBuilder(BlockTagKeys.COMPOSTERS).add(Blocks.COMPOSTER, BlockList.OAK_COMPOSTER, BlockList.SPRUCE_COMPOSTER, BlockList.BIRCH_COMPOSTER,
                 BlockList.JUNGLE_COMPOSTER, BlockList.ACACIA_COMPOSTER, BlockList.DARK_OAK_COMPOSTER, BlockList.CRIMSON_COMPOSTER,
                 BlockList.WARPED_COMPOSTER, BlockList.MANGROVE_COMPOSTER, BlockList.BAMBOO_COMPOSTER, BlockList.CHERRY_COMPOSTER);

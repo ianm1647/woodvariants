@@ -1,6 +1,6 @@
 package com.ianm1647.woodvariants.mixin;
 
-import com.ianm1647.woodvariants.block.BlockTagKeys;
+import com.ianm1647.woodvariants.util.BlockTagKeys;
 import net.minecraft.block.EnchantingTableBlock;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

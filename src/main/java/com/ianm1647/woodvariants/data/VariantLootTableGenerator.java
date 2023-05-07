@@ -1,6 +1,6 @@
 package com.ianm1647.woodvariants.data;
 
-import com.ianm1647.woodvariants.block.BlockList;
+import com.ianm1647.woodvariants.util.BlockList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 

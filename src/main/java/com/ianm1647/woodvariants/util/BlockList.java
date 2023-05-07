@@ -1,4 +1,4 @@
-package com.ianm1647.woodvariants.block;
+package com.ianm1647.woodvariants.util;
 
 import net.minecraft.block.Block;
 

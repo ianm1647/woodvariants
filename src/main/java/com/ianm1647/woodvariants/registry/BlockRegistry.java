@@ -2,13 +2,15 @@ package com.ianm1647.woodvariants.registry;
 
 import com.ianm1647.woodvariants.WoodVariants;
 import com.ianm1647.woodvariants.block.*;
+import com.ianm1647.woodvariants.util.BlockList;
 import com.ianm1647.woodvariants.util.VariantsPOITypes;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.block.Block;
+import net.minecraft.block.*;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -51,6 +53,18 @@ public class BlockRegistry {
         BlockList.MANGROVE_BOOKSHELF = bookshelf("mangrove_bookshelf", new VariantBookshelfBlock());
         BlockList.BAMBOO_BOOKSHELF = bookshelf("bamboo_bookshelf", new VariantBookshelfBlock());
         BlockList.CHERRY_BOOKSHELF = bookshelf("cherry_bookshelf", new VariantBookshelfBlock());
+
+        BlockList.OAK_CHEST = chest("oak_chest", new VariantChestBlock(WoodType.OAK));
+        BlockList.SPRUCE_CHEST = chest("spruce_chest", new VariantChestBlock(WoodType.SPRUCE));
+        BlockList.BIRCH_CHEST = chest("birch_chest", new VariantChestBlock(WoodType.BIRCH));
+        BlockList.JUNGLE_CHEST = chest("jungle_chest", new VariantChestBlock(WoodType.JUNGLE));
+        BlockList.ACACIA_CHEST = chest("acacia_chest", new VariantChestBlock(WoodType.ACACIA));
+        BlockList.DARK_OAK_CHEST = chest("dark_oak_chest", new VariantChestBlock(WoodType.DARK_OAK));
+        BlockList.CRIMSON_CHEST = chest("crimson_chest", new VariantChestBlock(WoodType.CRIMSON));
+        BlockList.WARPED_CHEST = chest("warped_chest", new VariantChestBlock(WoodType.WARPED));
+        BlockList.MANGROVE_CHEST = chest("mangrove_chest", new VariantChestBlock(WoodType.MANGROVE));
+        BlockList.BAMBOO_CHEST = chest("bamboo_chest", new VariantChestBlock(WoodType.BAMBOO));
+        BlockList.CHERRY_CHEST = chest("cherry_chest", new VariantChestBlock(WoodType.CHERRY));
 
         BlockList.OAK_COMPOSTER = composter("oak_composter", new VariantComposterBlock());
         BlockList.SPRUCE_COMPOSTER = composter("spruce_composter", new VariantComposterBlock());
@@ -119,6 +133,12 @@ public class BlockRegistry {
         return Registry.register(Registries.BLOCK, identifier, block);
     }
 
+    private static Block chest(String name, Block block) {
+        Identifier identifier = new Identifier(WoodVariants.MODID, name);
+        blockItem(name, block);
+        return Registry.register(Registries.BLOCK, identifier, block);
+    }
+
     private static Block composter(String name, Block block) {
         Identifier identifier = new Identifier(WoodVariants.MODID, name);
         blockItem(name, block);
@@ -146,6 +166,10 @@ public class BlockRegistry {
         blockItem(name, block);
         VariantsPOITypes.LECTERNS.put(identifier, block);
         return Registry.register(Registries.BLOCK, identifier, block);
+    }
+
+    private static FabricBlockSettings blockSettings(Block block) {
+        return FabricBlockSettings.copyOf(block);
     }
 
     private static Item blockItem(String name, Block block) {

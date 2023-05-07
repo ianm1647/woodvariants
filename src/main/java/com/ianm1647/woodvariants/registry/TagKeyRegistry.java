@@ -1,8 +1,8 @@
 package com.ianm1647.woodvariants.registry;
 
 import com.ianm1647.woodvariants.WoodVariants;
-import com.ianm1647.woodvariants.block.BlockTagKeys;
-import com.ianm1647.woodvariants.item.ItemTagKeys;
+import com.ianm1647.woodvariants.util.BlockTagKeys;
+import com.ianm1647.woodvariants.util.ItemTagKeys;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -15,6 +15,7 @@ public class TagKeyRegistry {
         BlockTagKeys.BARRELS = blockTagKey("barrels");
         BlockTagKeys.BEEHIVES = blockTagKey("beehives");
         BlockTagKeys.BOOKSHELVES = blockTagKey("bookshelves");
+        BlockTagKeys.CHESTS = blockTagKey("chests");
         BlockTagKeys.COMPOSTERS = blockTagKey("composters");
         BlockTagKeys.CRAFTING_TABLES = blockTagKey("crafting_tables");
         BlockTagKeys.LADDERS = blockTagKey("ladders");
@@ -23,6 +24,7 @@ public class TagKeyRegistry {
         ItemTagKeys.BARRELS = itemTagKey("barrels");
         ItemTagKeys.BEEHIVES = itemTagKey("beehives");
         ItemTagKeys.BOOKSHELVES = itemTagKey("bookshelves");
+        ItemTagKeys.CHESTS = itemTagKey("chests");
         ItemTagKeys.COMPOSTERS = itemTagKey("composters");
         ItemTagKeys.CRAFTING_TABLES = itemTagKey("crafting_tables");
         ItemTagKeys.LADDERS = itemTagKey("ladders");

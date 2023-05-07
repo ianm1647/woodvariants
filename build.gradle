@@ -6,6 +6,10 @@ plugins {
 version = project.mod_version
 group = project.maven_group
 
+loom {
+	accessWidenerPath = file("src/main/resources/woodvariants.accesswidener")
+}
+
 repositories {
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because
@@ -15,6 +19,7 @@ repositories {
 	maven { url = "https://maven.shedaniel.me/" }
 	maven { url = "https://maven.terraformersmc.com/releases" }
 	maven { url = "https://www.cursemaven.com" }
+	maven { url = "https://jitpack.io"}
 }
 
 dependencies {
@@ -32,6 +37,10 @@ dependencies {
 	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${project.rei_version}"
 
 	modApi "com.terraformersmc:modmenu:${project.modmenu_version}"
+
+	implementation("com.github.LlamaLad7:MixinExtras:0.1.1")
+	include "com.github.LlamaLad7:MixinExtras:0.1.1"
+	annotationProcessor("com.github.LlamaLad7:MixinExtras:0.1.1")
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.

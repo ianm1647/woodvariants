@@ -8,6 +8,8 @@
     "EnchantingTableBlockMixin",
     "PointOfInterestTypesAccessor"
   ],
+  "client": [
+  ],
   "injectors": {
     "defaultRequire": 1
   }

@@ -1,8 +1,9 @@
-// 1.19.4	2023-05-04T19:59:15.0010452	Wood Variants/Tags for minecraft:item
+// 1.19.4	2023-05-06T11:24:19.5699415	Wood Variants/Tags for minecraft:item
 a1c465775e88e504def93802f2abd89850539a5f data\woodvariants\tags\items\crafting_tables.json
 790d6cf6661aecc192dd84ab00812c5bf3077c95 data\woodvariants\tags\items\beehives.json
-d7973f7875904a296c1b98682ff23892dc6def5b data\minecraft\tags\items\non_flammable_wood.json
+c57dae4183a54168a7fb193f21254c443ab3fb55 data\minecraft\tags\items\non_flammable_wood.json
 35fd7a708b1659817088b97c9c68ae6405e89e78 data\woodvariants\tags\items\lecterns.json
+b5e755aa672a2b9bc051326b80b83c5ff4a68520 data\woodvariants\tags\items\chests.json
 a676d1f1f5ff65f6ab18b6bad0c4f560841a6d3f data\woodvariants\tags\items\composters.json
 c5210ebe9f7ff664498941e66a505223688c58f9 data\woodvariants\tags\items\barrels.json
 bb48f3094321038bbf7ebbb214dd17649d717062 data\woodvariants\tags\items\bookshelves.json

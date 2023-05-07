@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chest",
+    "woodvariants:oak_chest",
+    "woodvariants:spruce_chest",
+    "woodvariants:birch_chest",
+    "woodvariants:jungle_chest",
+    "woodvariants:acacia_chest",
+    "woodvariants:dark_oak_chest",
+    "woodvariants:crimson_chest",
+    "woodvariants:warped_chest",
+    "woodvariants:mangrove_chest",
+    "woodvariants:bamboo_chest",
+    "woodvariants:cherry_chest"
+  ]
+}
